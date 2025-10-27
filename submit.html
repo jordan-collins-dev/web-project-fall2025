@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Everyday Genius — Submit Idea</title>
+    <link rel="stylesheet" href="color.css">
+</head>
+<body>
+    <a class="skip-link" href="#submit-main">Skip to main content</a>
+
+    <div class="wrapper">
+        <header class="main-header">
+            <div class="header-content">
+                <div class="branding">
+                    <div class="logo">Everyday Genius</div>
+                    <div class="tagline">Discover your unique talents</div>
+                </div>
+                <a class="login-btn" href="submit.html">Login</a>
+            </div>
+        </header>
+
+        <nav class="main-nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="tools.html">Tools & Resources</a></li>
+                <li><a href="submit.html">Submit Idea</a></li>
+            </ul>
+        </nav>
+
+        <main id="submit-main">
+            <h1>Submit your idea</h1>
+            <p>Use the form below to describe your microbusiness idea. We review submissions and provide feedback that focuses on early validation and low-cost experiments.</p>
+
+            <figure>
+                <img src="images/submit.jpg" alt="Person writing an idea notebook" />
+            </figure>
+
+            <form class="idea-form" action="#" method="post" novalidate>
+                <label for="full-name">Full name</label>
+                <input id="full-name" name="full_name" type="text" required value="">
+
+                <label for="email">Email address</label>
+                <input id="email" name="email" type="email" required value="">
+
+                <label for="category">Idea category</label>
+                <select id="category" name="category" required>
+                    <option value="">Choose a category</option>
+                    <option value="services">Services</option>
+                    <option value="digital-products">Digital products</option>
+                    <option value="education">Education / coaching</option>
+                    <option value="retail">Retail</option>
+                </select>
+
+                <label for="description">Brief description of your idea</label>
+                <textarea id="description" name="description" rows="6" required></textarea>
+
+                <label class="checkbox">
+                    <input type="checkbox" name="consent" value="yes" required> I agree to be contacted for feedback and accept the privacy notice.
+                </label>
+
+                <button type="submit" class="explore-btn">Submit Idea</button>
+            </form>
+        </main>
+
+        <footer class="main-footer">
+            <div>everydaygenius@email.com &nbsp; · &nbsp; Image resources (Unsplash)</div>
+            <div class="footer-meta">© 2025 Everyday Genius</div>
+        </footer>
+    </div>
+</body>
+</html>
