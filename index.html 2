@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Everyday Genius — Home</title>
+    <link rel="stylesheet" href="color.css">
+</head>
+<body>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+
+    <div class="wrapper">
+        <header class="main-header" role="banner" aria-label="Site header">
+            <div class="header-content">
+                <div class="branding">
+                    <div class="logo">Everyday Genius</div>
+                    <div class="tagline">Discover your unique talents</div>
+                </div>
+                <a class="login-btn" href="submit.html">Login</a>
+            </div>
+        </header>
+
+        <nav class="main-nav" role="navigation" aria-label="Primary">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="tools.html">Tools & Resources</a></li>
+                <li><a href="submit.html">Submit Idea</a></li>
+            </ul>
+        </nav>
+
+        <main id="main-content" role="main">
+            <section class="hero" aria-labelledby="hero-heading">
+                <div class="hero-text">
+                    <span class="muted">&lt;nav&gt;</span>
+                    <h1 id="hero-heading">Discover Your Unique Talents</h1>
+                    <p>Transform your resume and ideas into actionable microbusiness opportunities — practical guidance, honest pricing, and learning paths that build trust and results.</p>
+                    <button class="explore-btn" onclick="location.href='tools.html'">Explore Tools</button>
+                </div>
+                <figure class="hero-image" aria-hidden="false">
+                    <img src="images/hero.jpg" alt="Illustration of growth and tools" />
+                </figure>
+            </section>
+
+            <section class="highlights" aria-label="Highlights">
+                <article class="highlight-card">
+                    <h2>Resume-to-Income™</h2>
+                    <hr />
+                    <p>Turn skills into income with microtask packaging, pricing checklists and a short action plan.</p>
+                    <button onclick="location.href='tools.html'">Try Now</button>
+                </article>
+
+                <article class="highlight-card">
+                    <h2>Micro-Business Generator</h2>
+                    <hr />
+                    <p>Fast idea-to-plan generator that suggests revenue channels based on your background.</p>
+                    <button onclick="location.href='tools.html'">Try Now</button>
+                </article>
+
+                <article class="highlight-card">
+                    <h2>Launch Planner</h2>
+                    <hr />
+                    <p>Step-by-step launch checklist and simple marketing templates to get started quickly.</p>
+                    <button onclick="location.href='submit.html'">View us</button>
+                </article>
+            </section>
+
+            <section class="teaser-form" aria-label="Tools and submit">
+                <div class="table-teaser">
+                    <h2>Tools comparison</h2>
+                    <hr />
+                    <p>Compare features and pricing across our recommended tools and learn which fits your microbusiness goals.</p>
+                    <a href="tools.html">View full tools comparison</a>
+                </div>
+
+                <div class="cata-form">
+                    <h2>Have an idea? Submit it</h2>
+                    <hr />
+                    <p>We review submissions and provide feedback for early-stage microbusiness ideas.</p>
+                    <button onclick="location.href='submit.html'">Submit Idea</button>
+                </div>
+            </section>
+        </main>
+
+        <footer class="main-footer" role="contentinfo">
+            <div>everydaygenius@email.com &nbsp; · &nbsp; Image resources (Unsplash)</div>
+            <div class="footer-meta">© 2025 Everyday Genius</div>
+        </footer>
+    </div>
+
+</body>
+</html>
